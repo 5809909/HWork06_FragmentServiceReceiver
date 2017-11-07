@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.github.a5809909.hwork06_fragmentservicereceiver"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.a5809909.hwork06_fragmentservicereceiver">
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".ControlService" />
+
+        <service
+            android:name=".Services.MyIntentService"
+            android:exported="false" />
+         </application>
 
 </manifest>

@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">HWork06_FragmentServiceReceiver</string>
+    <string name="text_service_btn">Service</string>
+    <string name="text_signIn_btn">Sign IN</string>
+    <string name="text_signUp_btn">Sign UP</string>
+    <string name="login_text_view">Enter your Login and password here</string>
+    <string name="enter_text_btn">Enter</string>
+    <string name="login_hint_text_btn">login</string>
+    <string name="password_hint_text_btn">password</string>
+    <string name="service_control_text_view">Service control</string>
+    <string name="start_text_btn">START</string>
+    <string name="stop_text_btn">STOP</string>
+    <string name="text_btn_control_service">Control Service</string>
+    <string name="text_btn_sign_in">Sign In</string>
+    <string name="text_btn_sign_up">Sign Up</string>
+    <string name="text_btn_create_account">Registration</string>
+    <string name="text_view_email">Enter email</string>
+    <string name="text_view_repeat_password">Repeat Password</string>
+    <string name="text_view_enter_password">Enter Password</string>
+    <string name="text_view_enter_login">Enter Login</string>
+    <string name="text_btn_start_service">Start Service</string>
+    <string name="text_btn_send_message_in_service">Send Message in Service</string>
+    <string name="hint_text_send_this_text_to_service">send this text to service</string>
+    <string name="text_view_message_from_service">Message from Service:</string>
 </resources>
